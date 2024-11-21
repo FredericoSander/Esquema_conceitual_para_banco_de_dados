@@ -2,7 +2,7 @@
 
 ## Descrição do projeto
 
-<p align="justify">Este desafio de projeto consiste na criação de modelo conceitual que posterioemente será utilizado como base para criação dos modelos lógico e físico. O cenário de uma oficina mecãnica foi utilizado para a criação deste modelo. A proposta é desenvolver um banco de dados para a atender às seguintes demandas.</p>
+<p align="justify">Este desafio de projeto consiste na criação de modelo conceitual que posteriormente será utilizado como base para criação dos modelos lógico e físico. O cenário de uma oficina mecânica foi utilizado para a criação deste modelo. A proposta é desenvolver um banco de dados para a atender às seguintes demandas.</p>
 
 - Sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica.
 - Clientes levam veículos à oficina mecânica para serem consertados ou para passarem por revisões  periódicas.
