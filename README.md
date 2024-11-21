@@ -37,7 +37,7 @@ O modelo conceitual porpoem a criação de 6 entidades para projeto de banco de 
 
 ### Entidade Fornecedor
 
-<p align="justify">A entidade Fornecedor armazena as informações de todos os Fornecedores da oficina mecânica, como Razão Social, Nome Fantasia, CNPJ ou CPF e Endereço. A entidade Fornecedor está relacionada a entidade Estoque e, por meio deste relacionamento, é possivel verificar quais são dos produto foram mais vendidos por cada fornecedor, possibilitando uma comparação de valores de produtos semelhantes.</p>
+<p align="justify">A entidade Fornecedor armazena as informações de todos os Fornecedores da oficina mecânica, como <b>Razão Social, Nome Fantasia, CNPJ ou CPF e Endereço</b>. A entidade Fornecedor está relacionada a entidade Estoque e, por meio deste relacionamento, é possivel verificar quais são dos produto foram mais vendidos por cada fornecedor, possibilitando uma comparação de valores de produtos semelhantes.</p>
 
 ### Entidade Funcionários
 
@@ -45,12 +45,12 @@ O modelo conceitual porpoem a criação de 6 entidades para projeto de banco de 
 
 ### Estoque
 
-<p align="justify">A entidade Estoque recebe as informações de todos os produtos utilizados da oficina mecânica, como Nome do Produto, Valor de Compra, Valor de Venda e Quantidade. A entidade Estoque está relacionada às entidades Fornecedor e Ordem de Serviço. Por meio do relacionamento entre Estoque e Fornecedor, é possivel verificar quais são dos produtos que foram vendidos e seus respectivos fornecedores, possibilitando uma comparação de valores de produtos semelhantes. Por meio do relacionamento entre Estoque e Ordem de Serviço é possivel verificar quais produto 
+<p align="justify">A entidade Estoque recebe as informações de todos os produtos utilizados da oficina mecânica, como <b>Nome do Produto, Valor de Compra, Valor de Venda e Quantidade</b>. A entidade Estoque está relacionada às entidades Fornecedor e Ordem de Serviço. Por meio do relacionamento entre Estoque e Fornecedor, é possivel verificar quais são dos produtos que foram vendidos e seus respectivos fornecedores, possibilitando uma comparação de valores de produtos semelhantes. Por meio do relacionamento entre Estoque e Ordem de Serviço é possivel verificar quais produto 
 que foram solicitados para cada Ordem de Serviço e seus respectivos valores de venda.</p>
 
 ### Ordem de Serviço
 
-<p align="justify">A entidade Ordem de Serviço aramazena as informações<b>IdServiço, Data da OS, Data da Entrega, Status do Serviço</b>. Essas informações são geradas durante a criação da Ordem de Serviço, e por meio de relacionamentos possibilitam o rastreamento dos serviços a serem realizados, dos produtos utilizados que estão disponíveis na entidade Estoque e dos funcionário que executaram os serviços</p>
+<p align="justify">A entidade Ordem de Serviço aramazena as informações <b>IdServiço, Data da OS, Data da Entrega, Status do Serviço</b>. Essas informações são geradas durante a criação da Ordem de Serviço, e por meio de relacionamentos possibilitam o rastreamento dos serviços a serem realizados, dos produtos utilizados que estão disponíveis na entidade Estoque e dos funcionário que executaram os serviços</p>
 
 Por meio do relacionamento entre as entidades é possível rastrear todo o processo de criação das ordens de serviços, funcionários que executaram os serviços e valores dos serviços realizados.
 
