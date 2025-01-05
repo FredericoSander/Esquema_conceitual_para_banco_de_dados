@@ -1,4 +1,4 @@
-# Documentação do Esquema Conceitual para Oficina Mecânica
+# Esquema Conceitual para Oficina Mecânica
 
 ## Descrição do Projeto
 Este desafio de projeto consiste na criação de um modelo conceitual que será utilizado como base para os modelos lógico e físico de um banco de dados. O cenário escolhido é o de uma oficina mecânica. O objetivo é desenvolver um sistema de controle e gerenciamento de ordens de serviço.
