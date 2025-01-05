@@ -87,10 +87,10 @@ A entidade **Serviços** armazena informações sobre os serviços oferecidos pe
 ## Imagem do Modelo Conceitual
 A imagem do modelo conceitual ilustra as entidades, atributos e relacionamentos descritos acima. Cada entidade está conectada a outras por meio de relacionamentos que facilitam o rastreamento e a análise dos dados.
 
+![Modelo conceitual](https://github.com/FredericoSander/Esquema_conceitual_para_banco_de_dados/blob/main/Img/Esquema%20conceitual.png)
+
 ## Conclusão
 O modelo conceitual apresentado atende às necessidades do sistema de controle e gerenciamento de ordens de serviço para uma oficina mecânica. Ele garante que todas as informações relevantes sejam armazenadas de maneira estruturada e que os relacionamentos entre os dados permitam uma análise eficiente das operações da oficina.
-
-[Modelo conceitual](https://github.com/FredericoSander/Esquema_conceitual_para_banco_de_dados/blob/main/Img/Esquema%20conceitual.png)
 
 ---
 
