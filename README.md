@@ -1,9 +1,27 @@
 # Esquema Conceitual para Oficina Mecânica
 
+## Índice 
+
+* [Esquema Conceitual para Oficina Mecânica](#esquema-conceitual-para-oficina-mecânica)
+* [Índice](#índice)
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Status do Projeto](#status-do-projeto)
+* [Levantamento de Requisitos do Sistema](#levantamento-de-requisitos-do-sistema)
+* [Modelo Conceitual](#modelo-conceitual)
+* [Entidades e Relacionamentos](#entidades-e-relacionamentos)
+* [Relacionamentos](#relacionamentos)
+* [Técnicas e tecnologias utilizadas](#técnicas-e-tecnologias-utilizadas)
+* [Acesse o Projeto](#acesse-o-projeto)
+* [Conclusão](#conclusão)
+
 ## Descrição do Projeto
 Este desafio de projeto consiste na criação de um modelo conceitual que será utilizado como base para os modelos lógico e físico de um banco de dados. O cenário escolhido é o de uma oficina mecânica. O objetivo é desenvolver um sistema de controle e gerenciamento de ordens de serviço.
 
-### Requisitos do Sistema
+## Status do Projeto
+
+![Status do Projeto](http://img.shields.io/static/v1?label=STATUS&message=Concluído&color=GREEN&style=for-the-badge)
+
+## Levantamento de Requisitos do Sistema
 - Os clientes levam veículos à oficina para conserto ou revisão.
 - Cada veículo é designado a uma equipe de mecânicos que identifica os serviços necessários e preenche uma Ordem de Serviço (OS).
 - A partir da OS, calcula-se o valor dos serviços com base em uma tabela de referência de mão de obra.
@@ -17,9 +35,9 @@ A imagem do modelo conceitual ilustra as entidades, atributos e relacionamentos 
 
 ![Modelo conceitual](https://github.com/FredericoSander/Esquema_conceitual_para_banco_de_dados/blob/main/Img/Esquema%20conceitual.png)
 
-### Entidades e Relacionamentos
+## Entidades e Relacionamentos
 
-#### 1. **Cliente**
+### 1. **Cliente**
 A entidade **Cliente** armazena informações sobre os clientes da oficina, como nome, sobrenome, CPF e endereço completo. Esta entidade se relaciona com a entidade **Ordem de Serviço**, permitindo rastrear todas as OS geradas para cada cliente.
 
 **Atributos:**
@@ -29,7 +47,7 @@ A entidade **Cliente** armazena informações sobre os clientes da oficina, como
 - CPF
 - Endereço (logradouro, número, bairro, cidade, estado, país)
 
-#### 2. **Fornecedor**
+### 2. **Fornecedor**
 A entidade **Fornecedor** armazena informações sobre os fornecedores da oficina, como razão social, nome fantasia, CNPJ e endereço. Está relacionada à entidade **Estoque**, permitindo verificar quais produtos são fornecidos por cada fornecedor.
 
 **Atributos:**
@@ -39,7 +57,7 @@ A entidade **Fornecedor** armazena informações sobre os fornecedores da oficin
 - CNPJ
 - Endereço (logradouro, número, bairro, cidade, estado, país)
 
-#### 3. **Funcionários**
+### 3. **Funcionários**
 A entidade **Funcionários** armazena informações sobre os funcionários da oficina, como nome, sobrenome, CPF, cargo, data de admissão e endereço. Está relacionada à entidade **Ordem de Serviço**, permitindo rastrear quais OS foram atribuídas a cada funcionário.
 
 **Atributos:**
@@ -52,7 +70,7 @@ A entidade **Funcionários** armazena informações sobre os funcionários da of
 - Data de Aniversário
 - Endereço (logradouro, número, bairro, cidade, estado, país)
 
-#### 4. **Estoque**
+### 4. **Estoque**
 A entidade **Estoque** armazena informações sobre os produtos utilizados na oficina, como nome do produto, valor de compra, valor de venda e quantidade. Está relacionada às entidades **Fornecedor** e **Ordem de Serviço**.
 
 **Atributos:**
@@ -61,7 +79,7 @@ A entidade **Estoque** armazena informações sobre os produtos utilizados na of
 - Valor do Produto
 - Quantidade
 
-#### 5. **Ordem de Serviço (OS)**
+### 5. **Ordem de Serviço (OS)**
 A entidade **Ordem de Serviço** armazena informações sobre as ordens de serviço geradas na oficina, como data da emissão, data da entrega, status do serviço e valores.
 
 **Atributos:**
@@ -70,7 +88,7 @@ A entidade **Ordem de Serviço** armazena informações sobre as ordens de servi
 - Data de Entrega
 - Status do Serviço
 
-#### 6. **Serviços**
+### 6. **Serviços**
 A entidade **Serviços** armazena informações sobre os serviços oferecidos pela oficina, como nome do serviço, tipo de serviço e valor.
 
 **Atributos:**
@@ -79,7 +97,7 @@ A entidade **Serviços** armazena informações sobre os serviços oferecidos pe
 - Tipo de Serviço
 - Valor do Serviço
 
-### Relacionamentos
+## Relacionamentos
 
 - **OS-Cliente:** Cada cliente pode ter várias ordens de serviço, mas cada OS está associada a um único cliente.
 - **OS-Funcionários:** Cada ordem de serviço pode ser executada por vários funcionários.
@@ -87,11 +105,21 @@ A entidade **Serviços** armazena informações sobre os serviços oferecidos pe
 - **OS-Serviços:** Cada ordem de serviço pode incluir vários serviços.
 - **Fornecedor-Estoque:** Cada fornecedor fornece vários produtos para o estoque.
 
+## Técnicas e tecnologias utilizadas
+
+- ``BRMW``
+- ``Modelagem de dados``
+- ``Git``
+- ``GitHub``
+
 ## Conclusão
 O modelo conceitual apresentado visa atender às necessidades do sistema de controle e gerenciamento de ordens de serviço para uma oficina mecânica. Ele permite que todas as informações relevantes sejam armazenadas de maneira estruturada e que os relacionamentos entre os dados permitam uma análise eficiente das operações da oficina.
 
----
+## Acesse o Projeto
+
+Você pode acessar o projeto clicando [aqui](https://github.com/FredericoSander/Esquema_conceitual_para_banco_de_dados/blob/main/Img/Esquema%20conceitual.png)
 
 ## Autor
 
-- [Frederico S N Cota](https://github.com/FredericoSander)
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/136928502?s=96&v=4" width=115><br><sub>Frederico Sander</sub>](https://github.com/FredericoSander)
+| :---: | 
